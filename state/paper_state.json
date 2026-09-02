@@ -3,35 +3,14 @@
   "started_at": "2025-12-23",
   "strategy": "xmom_252_21_top3_regime200",
   "backfill_until": "2026-07-10",
-  "last_processed": "2026-09-01",
-  "cash": "663060.0330746099",
+  "last_processed": "2026-09-02",
+  "cash": "192631.6095746085",
   "peak": "108506793.24499223",
   "halted": "0",
   "cooloff": "0",
-  "prev_equity": "104000060.03307462"
+  "prev_equity": "102817131.60957462"
  },
  "paper_positions": [
-  {
-   "ticker": "SMGR.JK",
-   "shares": 13200,
-   "entry_date": "2026-07-27",
-   "entry_price": 1452.9,
-   "entry_costs": 28767.420000000002
-  },
-  {
-   "ticker": "ANTM.JK",
-   "shares": 6300,
-   "entry_date": "2026-07-27",
-   "entry_price": 3026.04,
-   "entry_costs": 28596.078
-  },
-  {
-   "ticker": "INCO.JK",
-   "shares": 3700,
-   "entry_date": "2026-07-31",
-   "entry_price": 5035.05,
-   "entry_costs": 27944.5275
-  },
   {
    "ticker": "PTBA.JK",
    "shares": 8000,
@@ -45,6 +24,27 @@
    "entry_date": "2026-07-31",
    "entry_price": 2464.92,
    "entry_costs": 28100.088
+  },
+  {
+   "ticker": "TLKM.JK",
+   "shares": 7900,
+   "entry_date": "2026-09-02",
+   "entry_price": 2605.2,
+   "entry_costs": 30871.62
+  },
+  {
+   "ticker": "PGAS.JK",
+   "shares": 13300,
+   "entry_date": "2026-09-02",
+   "entry_price": 1563.12,
+   "entry_costs": 31184.244000000002
+  },
+  {
+   "ticker": "CPIN.JK",
+   "shares": 6400,
+   "entry_date": "2026-09-02",
+   "entry_price": 3066.12,
+   "entry_costs": 29434.752
   }
  ],
  "trades": [
@@ -166,6 +166,51 @@
    "pnl": 318876.1200000016,
    "return_pct": 0.01683066717289344,
    "holding_days": 4,
+   "open_flag": 0
+  },
+  {
+   "run_id": "paper-live",
+   "ticker": "SMGR.JK",
+   "side": "long",
+   "entry_date": "2026-07-27",
+   "entry_price": 1452.9,
+   "exit_date": "2026-09-02",
+   "exit_price": 1721.55,
+   "shares": 13200,
+   "costs": 85578.57,
+   "pnl": 3460601.4300000016,
+   "return_pct": 0.18017352455726907,
+   "holding_days": 37,
+   "open_flag": 0
+  },
+  {
+   "run_id": "paper-live",
+   "ticker": "ANTM.JK",
+   "side": "long",
+   "entry_date": "2026-07-27",
+   "entry_price": 3026.04,
+   "exit_date": "2026-09-02",
+   "exit_price": 3063.86,
+   "shares": 6300,
+   "costs": 76851.87299999999,
+   "pnl": 161414.1269999982,
+   "return_pct": 0.008454255603547829,
+   "holding_days": 37,
+   "open_flag": 0
+  },
+  {
+   "run_id": "paper-live",
+   "ticker": "INCO.JK",
+   "side": "long",
+   "entry_date": "2026-07-31",
+   "entry_price": 5035.05,
+   "exit_date": "2026-09-02",
+   "exit_price": 5064.85,
+   "shares": 3700,
+   "costs": 74794.39,
+   "pnl": 35465.60999999926,
+   "return_pct": 0.0019008636626494009,
+   "holding_days": 33,
    "open_flag": 0
   }
  ],
@@ -1473,6 +1518,14 @@
    "cash": 663060.0330746099,
    "exposure": 0.9936244264391411,
    "drawdown": -0.0415341111569123
+  },
+  {
+   "run_id": "paper-live",
+   "date": "2026-09-02",
+   "equity": 102817131.60957462,
+   "cash": 192631.6095746085,
+   "exposure": 0.9981264638824384,
+   "drawdown": -0.05243599469916316
   }
  ]
 }
