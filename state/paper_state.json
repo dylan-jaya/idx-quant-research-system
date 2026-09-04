@@ -3,12 +3,12 @@
   "started_at": "2025-12-23",
   "strategy": "xmom_252_21_top3_regime200",
   "backfill_until": "2026-07-10",
-  "last_processed": "2026-09-03",
-  "cash": "192631.6095746085",
+  "last_processed": "2026-09-04",
+  "cash": "138657.05557461083",
   "peak": "108506793.24499223",
   "halted": "0",
   "cooloff": "0",
-  "prev_equity": "106150631.60957462"
+  "prev_equity": "105379657.05557461"
  },
  "paper_positions": [
   {
@@ -17,13 +17,6 @@
    "entry_date": "2026-07-31",
    "entry_price": 2354.7,
    "entry_costs": 28256.4
-  },
-  {
-   "ticker": "EXCL.JK",
-   "shares": 7600,
-   "entry_date": "2026-07-31",
-   "entry_price": 2464.92,
-   "entry_costs": 28100.088
   },
   {
    "ticker": "TLKM.JK",
@@ -45,6 +38,13 @@
    "entry_date": "2026-09-02",
    "entry_price": 3066.12,
    "entry_costs": 29434.752
+  },
+  {
+   "ticker": "SMGR.JK",
+   "shares": 11600,
+   "entry_date": "2026-09-04",
+   "entry_price": 1808.61,
+   "entry_costs": 31469.814000000002
   }
  ],
  "trades": [
@@ -211,6 +211,21 @@
    "pnl": 35465.60999999926,
    "return_pct": 0.0019008636626494009,
    "holding_days": 33,
+   "open_flag": 0
+  },
+  {
+   "run_id": "paper-live",
+   "ticker": "EXCL.JK",
+   "side": "long",
+   "entry_date": "2026-07-31",
+   "entry_price": 2464.92,
+   "exit_date": "2026-09-04",
+   "exit_price": 2764.46,
+   "shares": 7600,
+   "costs": 80624.828,
+   "pnl": 2195879.1720000017,
+   "return_pct": 0.11704181957918494,
+   "holding_days": 35,
    "open_flag": 0
   }
  ],
@@ -1534,6 +1549,14 @@
    "cash": 192631.6095746085,
    "exposure": 0.998185299449907,
    "drawdown": -0.02171441589005163
+  },
+  {
+   "run_id": "paper-live",
+   "date": "2026-09-04",
+   "equity": 105379657.05557461,
+   "cash": 138657.05557461083,
+   "exposure": 0.9986842142074775,
+   "drawdown": -0.028819727280641416
   }
  ]
 }
