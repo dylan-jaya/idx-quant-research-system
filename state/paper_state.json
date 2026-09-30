@@ -3,21 +3,14 @@
   "started_at": "2025-12-23",
   "strategy": "xmom_252_21_top3_regime200",
   "backfill_until": "2026-07-10",
-  "last_processed": "2026-09-29",
-  "cash": "138657.05557461083",
+  "last_processed": "2026-09-30",
+  "cash": "1210655.485574618",
   "peak": "108506793.24499223",
   "halted": "0",
   "cooloff": "0",
-  "prev_equity": "99757157.05557461"
+  "prev_equity": "98320655.48557462"
  },
  "paper_positions": [
-  {
-   "ticker": "PTBA.JK",
-   "shares": 8000,
-   "entry_date": "2026-07-31",
-   "entry_price": 2354.7,
-   "entry_costs": 28256.4
-  },
   {
    "ticker": "TLKM.JK",
    "shares": 7900,
@@ -26,25 +19,32 @@
    "entry_costs": 30871.62
   },
   {
-   "ticker": "PGAS.JK",
-   "shares": 13300,
-   "entry_date": "2026-09-02",
-   "entry_price": 1563.12,
-   "entry_costs": 31184.244000000002
+   "ticker": "KLBF.JK",
+   "shares": 27400,
+   "entry_date": "2026-09-30",
+   "entry_price": 726.45,
+   "entry_costs": 29857.095
   },
   {
-   "ticker": "CPIN.JK",
-   "shares": 6400,
-   "entry_date": "2026-09-02",
-   "entry_price": 3066.12,
-   "entry_costs": 29434.752
+   "ticker": "UNVR.JK",
+   "shares": 12100,
+   "entry_date": "2026-09-30",
+   "entry_price": 1638.27,
+   "entry_costs": 29734.6005
   },
   {
-   "ticker": "SMGR.JK",
-   "shares": 11600,
-   "entry_date": "2026-09-04",
-   "entry_price": 1808.61,
-   "entry_costs": 31469.814000000002
+   "ticker": "INCO.JK",
+   "shares": 4600,
+   "entry_date": "2026-09-30",
+   "entry_price": 4308.6,
+   "entry_costs": 29729.34
+  },
+  {
+   "ticker": "EXCL.JK",
+   "shares": 8300,
+   "entry_date": "2026-09-30",
+   "entry_price": 2384.76,
+   "entry_costs": 29690.262
   }
  ],
  "trades": [
@@ -226,6 +226,66 @@
    "pnl": 2195879.1720000017,
    "return_pct": 0.11704181957918494,
    "holding_days": 35,
+   "open_flag": 0
+  },
+  {
+   "run_id": "paper-live",
+   "ticker": "PTBA.JK",
+   "side": "long",
+   "entry_date": "2026-07-31",
+   "entry_price": 2354.7,
+   "exit_date": "2026-09-30",
+   "exit_price": 3103.78,
+   "shares": 8000,
+   "costs": 90332.0,
+   "pnl": 5902307.999999998,
+   "return_pct": 0.31285661646401586,
+   "holding_days": 61,
+   "open_flag": 0
+  },
+  {
+   "run_id": "paper-live",
+   "ticker": "PGAS.JK",
+   "side": "long",
+   "entry_date": "2026-09-02",
+   "entry_price": 1563.12,
+   "exit_date": "2026-09-30",
+   "exit_price": 1432.13,
+   "shares": 13300,
+   "costs": 78802.5665,
+   "pnl": -1820969.5665000016,
+   "return_pct": -0.0874596576653522,
+   "holding_days": 28,
+   "open_flag": 0
+  },
+  {
+   "run_id": "paper-live",
+   "ticker": "CPIN.JK",
+   "side": "long",
+   "entry_date": "2026-09-02",
+   "entry_price": 3066.12,
+   "exit_date": "2026-09-30",
+   "exit_price": 2964.06,
+   "shares": 6400,
+   "costs": 76859.712,
+   "pnl": -730043.7120000009,
+   "return_pct": -0.037147431371435315,
+   "holding_days": 28,
+   "open_flag": 0
+  },
+  {
+   "run_id": "paper-live",
+   "ticker": "SMGR.JK",
+   "side": "long",
+   "entry_date": "2026-09-04",
+   "entry_price": 1808.61,
+   "exit_date": "2026-09-30",
+   "exit_price": 1541.91,
+   "shares": 11600,
+   "costs": 76185.204,
+   "pnl": -3169905.2040000004,
+   "return_pct": -0.15086635725579614,
+   "holding_days": 26,
    "open_flag": 0
   }
  ],
@@ -1693,6 +1753,14 @@
    "cash": 138657.05557461083,
    "exposure": 0.9986100540586039,
    "drawdown": -0.08063675948530002
+  },
+  {
+   "run_id": "paper-live",
+   "date": "2026-09-30",
+   "equity": 98320655.48557462,
+   "cash": 1210655.485574618,
+   "exposure": 0.9876866617742165,
+   "drawdown": -0.09387557640210431
   }
  ]
 }
