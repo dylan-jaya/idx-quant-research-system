@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-06T16:56:34+00:00",
+  "generated_at_utc": "2026-10-07T17:33:21+00:00",
   "as_of_close": "2026-10-06",
   "execute_at": "next market open",
   "strategy": "switch__xmom_252_21_top8_regime200__revoff_60_top5_rb21",
@@ -112,7 +112,7 @@
       "risk": {
         "suggested_weight": 0.0,
         "atr_pct_of_price": 0.0304,
-        "last_close_idr": 26000.0,
+        "last_close_idr": 25570.0,
         "lot_size": 100,
         "rel_60d": -0.0218,
         "laggard_rank": 11
