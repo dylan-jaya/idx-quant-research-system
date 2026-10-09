@@ -3,12 +3,12 @@
   "started_at": "2025-12-23",
   "strategy": "xmom_252_21_top3_regime200",
   "backfill_until": "2026-07-10",
-  "last_processed": "2026-10-07",
-  "cash": "1210655.485574618",
+  "last_processed": "2026-10-08",
+  "cash": "1848710.8200746216",
   "peak": "108506793.24499223",
   "halted": "0",
   "cooloff": "0",
-  "prev_equity": "98403655.48557462"
+  "prev_equity": "97775710.82007462"
  },
  "paper_positions": [
   {
@@ -17,13 +17,6 @@
    "entry_date": "2026-09-02",
    "entry_price": 2605.2,
    "entry_costs": 30871.62
-  },
-  {
-   "ticker": "KLBF.JK",
-   "shares": 27400,
-   "entry_date": "2026-09-30",
-   "entry_price": 726.45,
-   "entry_costs": 29857.095
   },
   {
    "ticker": "UNVR.JK",
@@ -40,11 +33,18 @@
    "entry_costs": 29729.34
   },
   {
-   "ticker": "EXCL.JK",
-   "shares": 8300,
-   "entry_date": "2026-09-30",
-   "entry_price": 2384.76,
-   "entry_costs": 29690.262
+   "ticker": "PGAS.JK",
+   "shares": 13700,
+   "entry_date": "2026-10-08",
+   "entry_price": 1427.85,
+   "entry_costs": 29342.3175
+  },
+  {
+   "ticker": "CPIN.JK",
+   "shares": 6700,
+   "entry_date": "2026-10-08",
+   "entry_price": 2935.86,
+   "entry_costs": 29505.393
   }
  ],
  "trades": [
@@ -286,6 +286,36 @@
    "pnl": -3169905.2040000004,
    "return_pct": -0.15086635725579614,
    "holding_days": 26,
+   "open_flag": 0
+  },
+  {
+   "run_id": "paper-live",
+   "ticker": "KLBF.JK",
+   "side": "long",
+   "entry_date": "2026-09-30",
+   "entry_price": 726.45,
+   "exit_date": "2026-10-08",
+   "exit_price": 753.49,
+   "shares": 27400,
+   "costs": 81471.16,
+   "pnl": 659424.8399999987,
+   "return_pct": 0.033079433090710764,
+   "holding_days": 8,
+   "open_flag": 0
+  },
+  {
+   "run_id": "paper-live",
+   "ticker": "EXCL.JK",
+   "side": "long",
+   "entry_date": "2026-09-30",
+   "entry_price": 2384.76,
+   "exit_date": "2026-10-08",
+   "exit_price": 2335.32,
+   "shares": 8300,
+   "costs": 78148.152,
+   "pnl": -488500.1520000006,
+   "return_pct": -0.024642852558077324,
+   "holding_days": 8,
    "open_flag": 0
   }
  ],
@@ -1801,6 +1831,14 @@
    "cash": 1210655.485574618,
    "exposure": 0.9876970476391287,
    "drawdown": -0.09311064733621077
+  },
+  {
+   "run_id": "paper-live",
+   "date": "2026-10-08",
+   "equity": 97775710.82007462,
+   "cash": 1848710.8200746216,
+   "exposure": 0.981092330553581,
+   "drawdown": -0.09889779343758154
   }
  ]
 }
