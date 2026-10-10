@@ -3,12 +3,12 @@
   "started_at": "2025-12-23",
   "strategy": "xmom_252_21_top3_regime200",
   "backfill_until": "2026-07-10",
-  "last_processed": "2026-10-08",
+  "last_processed": "2026-10-09",
   "cash": "1848710.8200746216",
   "peak": "108506793.24499223",
   "halted": "0",
   "cooloff": "0",
-  "prev_equity": "97775710.82007462"
+  "prev_equity": "98404210.82007462"
  },
  "paper_positions": [
   {
@@ -1839,6 +1839,14 @@
    "cash": 1848710.8200746216,
    "exposure": 0.981092330553581,
    "drawdown": -0.09889779343758154
+  },
+  {
+   "run_id": "paper-live",
+   "date": "2026-10-09",
+   "equity": 98404210.82007462,
+   "cash": 1848710.8200746216,
+   "exposure": 0.9812130923598904,
+   "drawdown": -0.0931055293663271
   }
  ]
 }
