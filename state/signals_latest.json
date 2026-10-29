@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-28T16:50:18+00:00",
+  "generated_at_utc": "2026-10-29T17:05:36+00:00",
   "as_of_close": "2026-10-28",
   "execute_at": "next market open",
   "strategy": "switch__xmom_252_21_top8_regime200__revoff_60_top5_rb21",
@@ -106,15 +106,15 @@
       "ticker": "UNTR.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +24.6%, rank 20 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +22.8%, rank 20 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0417,
+        "atr_pct_of_price": 0.042,
         "last_close_idr": 25600.0,
         "lot_size": 100,
-        "rel_60d": 0.2464,
+        "rel_60d": 0.2284,
         "laggard_rank": 20
       }
     },
