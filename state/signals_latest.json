@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-05T18:17:03+00:00",
-  "as_of_close": "2026-11-04",
+  "generated_at_utc": "2026-11-06T17:41:25+00:00",
+  "as_of_close": "2026-11-05",
   "execute_at": "next market open",
   "strategy": "switch__xmom_252_21_top8_regime200__revoff_60_top5_rb21",
   "regime": "risk-off (JCI below regime SMA)",
@@ -10,15 +10,15 @@
       "ticker": "BBCA.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +0.3%, rank 6 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +1.4%, rank 6 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0433,
-        "last_close_idr": 4930.0,
+        "atr_pct_of_price": 0.0414,
+        "last_close_idr": 5125.0,
         "lot_size": 100,
-        "rel_60d": 0.0034,
+        "rel_60d": 0.0141,
         "laggard_rank": 6
       }
     },
@@ -26,63 +26,63 @@
       "ticker": "BBRI.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +9.8%, rank 11 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +7.4%, rank 8 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0453,
-        "last_close_idr": 2690.0,
+        "atr_pct_of_price": 0.0442,
+        "last_close_idr": 2710.0,
         "lot_size": 100,
-        "rel_60d": 0.0977,
-        "laggard_rank": 11
+        "rel_60d": 0.0745,
+        "laggard_rank": 8
       }
     },
     {
       "ticker": "BMRI.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +10.2%, rank 12 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +8.7%, rank 11 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0365,
-        "last_close_idr": 3600.0,
+        "atr_pct_of_price": 0.0356,
+        "last_close_idr": 3610.0,
         "lot_size": 100,
-        "rel_60d": 0.1016,
-        "laggard_rank": 12
+        "rel_60d": 0.0872,
+        "laggard_rank": 11
       }
     },
     {
       "ticker": "BBNI.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +9.6%, rank 10 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +13.3%, rank 14 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0417,
-        "last_close_idr": 3170.0,
+        "atr_pct_of_price": 0.0402,
+        "last_close_idr": 3320.0,
         "lot_size": 100,
-        "rel_60d": 0.0956,
-        "laggard_rank": 10
+        "rel_60d": 0.1327,
+        "laggard_rank": 14
       }
     },
     {
       "ticker": "TLKM.JK",
       "action": "ENTER_LONG",
       "confidence": "medium",
-      "reasoning": "[reversal leg] 60-day return vs JCI is -5.3%, rank 3 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is -4.0%, rank 3 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.2,
-        "atr_pct_of_price": 0.0546,
-        "last_close_idr": 1885.0,
+        "atr_pct_of_price": 0.0529,
+        "last_close_idr": 1990.0,
         "lot_size": 100,
-        "rel_60d": -0.0534,
+        "rel_60d": -0.0401,
         "laggard_rank": 3
       }
     },
@@ -90,15 +90,15 @@
       "ticker": "ASII.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +22.7%, rank 20 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +23.1%, rank 20 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0411,
-        "last_close_idr": 4900.0,
+        "atr_pct_of_price": 0.0396,
+        "last_close_idr": 4930.0,
         "lot_size": 100,
-        "rel_60d": 0.2275,
+        "rel_60d": 0.2308,
         "laggard_rank": 20
       }
     },
@@ -106,15 +106,15 @@
       "ticker": "UNTR.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +19.0%, rank 18 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +19.2%, rank 18 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0433,
-        "last_close_idr": 23150.0,
+        "atr_pct_of_price": 0.0408,
+        "last_close_idr": 23070.0,
         "lot_size": 100,
-        "rel_60d": 0.1897,
+        "rel_60d": 0.1922,
         "laggard_rank": 18
       }
     },
@@ -122,15 +122,15 @@
       "ticker": "INDF.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +12.8%, rank 13 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +12.2%, rank 13 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0332,
-        "last_close_idr": 6600.0,
+        "atr_pct_of_price": 0.0329,
+        "last_close_idr": 6725.0,
         "lot_size": 100,
-        "rel_60d": 0.1281,
+        "rel_60d": 0.1219,
         "laggard_rank": 13
       }
     },
@@ -138,111 +138,111 @@
       "ticker": "ICBP.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +0.7%, rank 7 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +0.6%, rank 5 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0433,
-        "last_close_idr": 5925.0,
+        "atr_pct_of_price": 0.0418,
+        "last_close_idr": 6125.0,
         "lot_size": 100,
-        "rel_60d": 0.0067,
-        "laggard_rank": 7
+        "rel_60d": 0.006,
+        "laggard_rank": 5
       }
     },
     {
       "ticker": "KLBF.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +15.1%, rank 15 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +14.7%, rank 17 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0399,
-        "last_close_idr": 725.0,
+        "atr_pct_of_price": 0.0396,
+        "last_close_idr": 760.0,
         "lot_size": 100,
-        "rel_60d": 0.1507,
-        "laggard_rank": 15
+        "rel_60d": 0.1475,
+        "laggard_rank": 17
       }
     },
     {
       "ticker": "UNVR.JK",
       "action": "ENTER_LONG",
-      "confidence": "medium",
-      "reasoning": "[reversal leg] 60-day return vs JCI is -0.1%, rank 5 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "confidence": "low",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +3.1%, rank 7 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.2,
-        "atr_pct_of_price": 0.0339,
-        "last_close_idr": 1390.0,
+        "atr_pct_of_price": 0.034,
+        "last_close_idr": 1455.0,
         "lot_size": 100,
-        "rel_60d": -0.0007,
-        "laggard_rank": 5
+        "rel_60d": 0.0313,
+        "laggard_rank": 7
       }
     },
     {
       "ticker": "SMGR.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +5.9%, rank 9 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +8.4%, rank 10 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0611,
-        "last_close_idr": 1340.0,
+        "atr_pct_of_price": 0.0586,
+        "last_close_idr": 1370.0,
         "lot_size": 100,
-        "rel_60d": 0.0594,
-        "laggard_rank": 9
+        "rel_60d": 0.0842,
+        "laggard_rank": 10
       }
     },
     {
       "ticker": "PGAS.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +13.4%, rank 14 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +14.7%, rank 16 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0524,
-        "last_close_idr": 1370.0,
+        "atr_pct_of_price": 0.0501,
+        "last_close_idr": 1415.0,
         "lot_size": 100,
-        "rel_60d": 0.1344,
-        "laggard_rank": 14
+        "rel_60d": 0.1471,
+        "laggard_rank": 16
       }
     },
     {
       "ticker": "ANTM.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +5.5%, rank 8 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +7.8%, rank 9 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0604,
-        "last_close_idr": 2600.0,
+        "atr_pct_of_price": 0.0589,
+        "last_close_idr": 2720.0,
         "lot_size": 100,
-        "rel_60d": 0.0551,
-        "laggard_rank": 8
+        "rel_60d": 0.0777,
+        "laggard_rank": 9
       }
     },
     {
       "ticker": "INCO.JK",
       "action": "ENTER_LONG",
       "confidence": "medium",
-      "reasoning": "[reversal leg] 60-day return vs JCI is -20.2%, rank 1 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is -17.8%, rank 1 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.2,
-        "atr_pct_of_price": 0.07,
-        "last_close_idr": 3070.0,
+        "atr_pct_of_price": 0.0682,
+        "last_close_idr": 3280.0,
         "lot_size": 100,
-        "rel_60d": -0.2017,
+        "rel_60d": -0.1778,
         "laggard_rank": 1
       }
     },
@@ -250,31 +250,31 @@
       "ticker": "ADRO.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +15.6%, rank 17 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +11.8%, rank 12 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0446,
-        "last_close_idr": 2350.0,
+        "atr_pct_of_price": 0.0445,
+        "last_close_idr": 2330.0,
         "lot_size": 100,
-        "rel_60d": 0.156,
-        "laggard_rank": 17
+        "rel_60d": 0.1184,
+        "laggard_rank": 12
       }
     },
     {
       "ticker": "PTBA.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +49.1%, rank 21 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +45.3%, rank 21 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0581,
-        "last_close_idr": 3020.0,
+        "atr_pct_of_price": 0.0591,
+        "last_close_idr": 2950.0,
         "lot_size": 100,
-        "rel_60d": 0.4907,
+        "rel_60d": 0.4528,
         "laggard_rank": 21
       }
     },
@@ -282,15 +282,15 @@
       "ticker": "JSMR.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +22.0%, rank 19 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +20.1%, rank 19 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0427,
+        "atr_pct_of_price": 0.0417,
         "last_close_idr": 2750.0,
         "lot_size": 100,
-        "rel_60d": 0.2199,
+        "rel_60d": 0.2011,
         "laggard_rank": 19
       }
     },
@@ -298,15 +298,15 @@
       "ticker": "EXCL.JK",
       "action": "ENTER_LONG",
       "confidence": "medium",
-      "reasoning": "[reversal leg] 60-day return vs JCI is -14.9%, rank 2 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is -17.6%, rank 2 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.2,
-        "atr_pct_of_price": 0.0713,
-        "last_close_idr": 1560.0,
+        "atr_pct_of_price": 0.0731,
+        "last_close_idr": 1510.0,
         "lot_size": 100,
-        "rel_60d": -0.1489,
+        "rel_60d": -0.176,
         "laggard_rank": 2
       }
     },
@@ -314,15 +314,15 @@
       "ticker": "CPIN.JK",
       "action": "ENTER_LONG",
       "confidence": "medium",
-      "reasoning": "[reversal leg] 60-day return vs JCI is -0.3%, rank 4 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is -3.8%, rank 4 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.2,
-        "atr_pct_of_price": 0.0494,
+        "atr_pct_of_price": 0.0503,
         "last_close_idr": 2370.0,
         "lot_size": 100,
-        "rel_60d": -0.0034,
+        "rel_60d": -0.038,
         "laggard_rank": 4
       }
     },
@@ -330,16 +330,16 @@
       "ticker": "AKRA.JK",
       "action": "NO_POSITION",
       "confidence": "n/a",
-      "reasoning": "[reversal leg] 60-day return vs JCI is +15.2%, rank 16 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
+      "reasoning": "[reversal leg] 60-day return vs JCI is +13.7%, rank 15 of 21 from the weakest end; market regime is risk-off. This strategy only holds while the regime is risk-off.",
       "expected_holding_days": 30.0,
       "invalidation": "Exit at the next 21-day rebalance if the name leaves the bottom 5 by 60-day relative return; exit immediately once JCI closes back above its 200-day SMA.",
       "risk": {
         "suggested_weight": 0.0,
-        "atr_pct_of_price": 0.0457,
-        "last_close_idr": 1300.0,
+        "atr_pct_of_price": 0.0456,
+        "last_close_idr": 1310.0,
         "lot_size": 100,
-        "rel_60d": 0.1524,
-        "laggard_rank": 16
+        "rel_60d": 0.1365,
+        "laggard_rank": 15
       }
     }
   ]
