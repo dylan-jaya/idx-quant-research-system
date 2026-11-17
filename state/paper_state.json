@@ -3,14 +3,50 @@
   "started_at": "2025-12-23",
   "strategy": "xmom_252_21_top3_regime200",
   "backfill_until": "2026-07-10",
-  "last_processed": "2026-11-13",
-  "cash": "80648904.60007462",
+  "last_processed": "2026-11-16",
+  "cash": "513169.0320746079",
   "peak": "80648904.60007462",
   "halted": "0",
   "cooloff": "0",
-  "prev_equity": "80648904.60007462"
+  "prev_equity": "80059669.0320746"
  },
- "paper_positions": [],
+ "paper_positions": [
+  {
+   "ticker": "TLKM.JK",
+   "shares": 7500,
+   "entry_date": "2026-11-16",
+   "entry_price": 2144.28,
+   "entry_costs": 24123.150000000005
+  },
+  {
+   "ticker": "UNVR.JK",
+   "shares": 10400,
+   "entry_date": "2026-11-16",
+   "entry_price": 1538.07,
+   "entry_costs": 23993.892
+  },
+  {
+   "ticker": "INCO.JK",
+   "shares": 4300,
+   "entry_date": "2026-11-16",
+   "entry_price": 3697.38,
+   "entry_costs": 23848.101
+  },
+  {
+   "ticker": "EXCL.JK",
+   "shares": 10700,
+   "entry_date": "2026-11-16",
+   "entry_price": 1503.0,
+   "entry_costs": 24123.15
+  },
+  {
+   "ticker": "CPIN.JK",
+   "shares": 6500,
+   "entry_date": "2026-11-16",
+   "entry_price": 2454.9,
+   "entry_costs": 23935.275
+  }
+ ],
  "trades": [
   {
    "run_id": "paper-live",
@@ -2086,6 +2122,14 @@
    "cash": 80648904.60007462,
    "exposure": 0.0,
    "drawdown": 0.0
+  },
+  {
+   "run_id": "paper-live",
+   "date": "2026-11-16",
+   "equity": 80059669.0320746,
+   "cash": 513169.0320746079,
+   "exposure": 0.9935901679549911,
+   "drawdown": -0.007306181911855392
   }
  ]
 }
